@@ -206,50 +206,6 @@ header {
   color: hsl(228, 45%, 44%); 
 }
 
-@media all and (max-width: 1000px) {
-  .news-content {
-    flex-direction: column;
-  }
-
-  .news-title {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-
-  .news-text {
-    width: 100%;
-  }
-}
-
-@media all and (max-width: 768px) {
-  main {
-    flex-direction: column;
-  }
-
-  header {
-    margin: 2rem 0;
-  }
-
-  .card-container {
-    flex-direction: column;
-    margin-bottom: 30px;
-  }
-
-  .card {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-
-  .sidebar {
-    max-width: 100%;
-    margin-top: 65px;
-  }
-
-  .news-container {
-    margin-right: 0;
-  }
-}
-
 @media all and (max-width: 600px) {
   .container {
     padding: 0 1rem;
@@ -288,3 +244,46 @@ header {
   }
 }
 
+@media all and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  header {
+    margin: 2rem 0;
+  }
+
+  .card-container {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .sidebar {
+    max-width: 100%;
+    margin-top: 65px;
+  }
+
+  .news-container {
+    margin-right: 0;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .news-content {
+    flex-direction: column;
+  }
+
+  .news-title {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .news-text {
+    width: 100%;
+  }
+}
