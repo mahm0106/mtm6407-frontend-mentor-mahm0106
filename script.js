@@ -2,8 +2,8 @@ const nav = document.querySelector(".main-nav");
 const navToggle = document.querySelector(".mobile-nav-toggle");
 
 navToggle.addEventListener("click", () => {
-  const isVisible = nav.getAttribute("data-visible") === "true";
+  const isVisible = nav.getAttribute("menu-visible") === "true";
 
-  nav.setAttribute("data-visible", !isVisible);
+  nav.setAttribute("menu-visible", !isVisible);
   navToggle.setAttribute("expand", !isVisible);
 });

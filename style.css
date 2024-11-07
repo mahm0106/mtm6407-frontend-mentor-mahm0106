@@ -266,7 +266,7 @@ header {
     transition: transform 250ms ease-out;
   }
 
-  .main-nav[data-visible="true"] {
+  .main-nav[menu-visible="true"] {
     transform: translateX(0%);
   }
 
