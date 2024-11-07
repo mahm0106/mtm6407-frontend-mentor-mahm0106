@@ -16,12 +16,12 @@ ul, ol {
 }
 
 :root {
-  --color-primary-200: hsl(35, 77%, 62%);
-  --color-primary-400: hsl(5, 85%, 63%);
-  --color-neutral-100: hsl(36, 100%, 99%);
-  --color-neutral-400: hsl(233, 8%, 79%);
-  --color-neutral-700: hsl(236, 13%, 42%);
-  --color-neutral-900: hsl(240, 100%, 5%);
+  --color-primary-orange: hsl(35, 77%, 62%);
+  --color-primary-red: hsl(5, 85%, 63%);
+  --color-neutral-off-white: hsl(36, 100%, 99%);
+  --color-neutral-grayish-blue: hsl(233, 8%, 79%);
+  --color-neutral-dark-grayish-blue: hsl(236, 13%, 42%);
+  --color-neutral-very-dark-blue: hsl(240, 100%, 5%);
   --fw-400: 400;
   --fw-700: 700;
   --fw-800: 800;
@@ -33,17 +33,17 @@ body {
   font-size: 15px;
   margin: 0 20px 30px;
   overflow-x: hidden;
-  color: var(--color-neutral-700);
-  background-color: var(--color-neutral-100);
+  color: var(--color-neutral-dark-grayish-blue);
+  background-color: var(--color-neutral-off-white);
 }
 
 a {
   text-decoration: none;
-  color: var(--color-neutral-700);
+  color: var(--color-neutral-dark-grayish-blue);
 }
 
 a:hover {
-  color: var(--color-primary-400);
+  color: var(--color-primary-red);
 }
 
 h1, h2, h3, h4, h5 {
@@ -53,12 +53,12 @@ h1, h2, h3, h4, h5 {
 h1 {
   font-size: 3.5rem;
   line-height: 3.5rem;
-  color: var(--color-neutral-900);
+  color: var(--color-neutral-very-dark-blue);
 }
 
 h2 {
   font-size: 2.5rem;
-  color: var(--color-primary-200);
+  color: var(--color-primary-orange);
   margin-bottom: 30px;
 }
 
@@ -69,14 +69,14 @@ h3, h3 a {
 
 h4 {
   font-size: 2rem;
-  color: var(--color-neutral-400);
+  color: var(--color-neutral-grayish-blue);
   line-height: 2rem;
   margin-bottom: 10px;
 }
 
 h5, h5 a {
   font-size: 1.13rem;
-  color: var(--color-neutral-900);
+  color: var(--color-neutral-very-dark-blue);
   line-height: 1.5rem;
 }
 
@@ -128,13 +128,13 @@ header {
   padding: 30px;
   max-width: 350px;
   min-width: 250px;
-  background-color: var(--color-neutral-900);
+  background-color: var(--color-neutral-very-dark-blue);
   color: #ffffff;
 }
 
 .sidebar-card {
   margin-bottom: 30px;
-  border-bottom: 1px solid var(--color-neutral-700);
+  border-bottom: 1px solid var(--color-neutral-dark-grayish-blue);
 }
 
 .sidebar-card:last-child {
@@ -184,7 +184,7 @@ header {
 }
 
 .news-text button {
-  background-color: var(--color-primary-400);
+  background-color: var(--color-primary-red);
   padding: 10px 30px;
   border: none;
   color: #ffffff;
@@ -195,7 +195,7 @@ header {
 }
 
 .news-text button:hover {
-  background-color: var(--color-neutral-900);
+  background-color: var(--color-neutral-very-dark-blue);
   cursor: pointer;
 }
 
